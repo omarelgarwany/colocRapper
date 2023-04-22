@@ -14,7 +14,7 @@ devtools::install_github('omarelgarwany/colocRapper')
 
 ## Input
 
-### - Config file: 
+### Config file (regions to be tested): 
   Each line consists of 5 columns:
   1. Region (e.g. chr1:1234-1422)
   2. Name of phenotype 1 (e.g. PTPN2)
@@ -22,11 +22,14 @@ devtools::install_github('omarelgarwany/colocRapper')
   4. Name of phenotype 2 (e.g. height)
   5. File that contains phenotype 2 summary statistics (e.g. /path/to/GWAS/height.gz)
 
-### - yaml file:
+*Example*:
+| chr1:123-456 | ENSG0001 | /path/to/eQTLs/chr1.gz | height | /path/to/GWAS/height.gz |
+
+### YAML file (summary stat files info):
   Has information about the files:
   1. tr_id_cols: columns containing names of phenotypes (could be just a placeholder if it's a cc phenotype)
   2. tr_val_cols: column names for: variant chromosome, variant position, effect size, standard error, p-value [, MAF if it's a quant trait]
   3. Types of traits (i.e. cc or quant)
 
-### - sample size file:
+### Sample size file:
   Tab-separated file containing file name and sample size
