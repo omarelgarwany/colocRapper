@@ -23,6 +23,7 @@ devtools::install_github('omarelgarwany/colocRapper')
   5. File that contains phenotype 2 summary statistics (e.g. /path/to/GWAS/height.gz)
 
 *Example*:
+
 | chr1:123-456 | ENSG0001 | /path/to/eQTLs/chr1.gz | height | /path/to/GWAS/height.gz |
 |———————|———————|———————|———————|———————|
 
