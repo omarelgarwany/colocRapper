@@ -24,6 +24,8 @@ devtools::install_github('omarelgarwany/colocRapper')
 
 *Example*:
 | chr1:123-456 | ENSG0001 | /path/to/eQTLs/chr1.gz | height | /path/to/GWAS/height.gz |
+|———————|———————|———————|———————|———————|
+
 
 ### YAML file (summary stat files info):
   Has information about the files:
