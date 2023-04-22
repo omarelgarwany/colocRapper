@@ -22,10 +22,12 @@ devtools::install_github('omarelgarwany/colocRapper')
   4. Name of phenotype 2 (e.g. height)
   5. File that contains phenotype 2 summary statistics (e.g. /path/to/GWAS/height.gz)
 
-*Example*:
+**Example**:
 
-| chr1:123-456 | ENSG0001 | /path/to/eQTLs/chr1.gz | height | /path/to/GWAS/height.gz |
-|———————|———————|———————|———————|———————|
+ |  |  |  |  |  |
+ |----------------- |---------------|-----------------------------|---------|----------|
+ | chr1:123-456 | ENSG0001 | /path/to/eQTLs/chr1.gz | height | /path/to/GWAS/height.gz |
+
 
 
 ### YAML file (summary stat files info):
